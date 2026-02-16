@@ -10,107 +10,104 @@
 
     <!-- SIDEBAR -->
     <div class="sidebar">
-        <div class="logo"><h1>Dashboard</h1></div>
+
+        <h1>Dashboard</h1>
 
         <div class="nav">
-            <div><img src="home-account.svg" alt="Home"> Home</div>
-            <div><img src="card-account-details-outline.svg" alt="Profile"> Profile</div>
-            <div><img src="message.svg" alt="Messages"> Messages</div>
-            <div><img src="history.svg" alt="History"> History</div>
-            <div><img src="calendar-check.svg" alt="Tasks"> Tasks</div>
-            <div><img src="account-group.svg" alt="Communities"> Communities</div>
+            <div><img src="home-account.svg"> Home</div>
+            <div><img src="card-account-details-outline.svg"> Profile</div>
+            <div><img src="message.svg"> Messages</div>
+            <div><img src="history.svg"> History</div>
+            <div><img src="calendar-check.svg"> Tasks</div>
+            <div><img src="account-group.svg"> Communities</div>
         </div>
 
-        <div class="nav bottom">
-            <div><img src="cog-outline.svg" alt="Settings"> Settings</div>
-            <div><img src="help-box.svg" alt="Support"> Support</div>
-            <div><img src="shield.svg" alt="Privacy"> Privacy</div>
+        <div class="nav">
+            <div><img src="cog-outline.svg"> Settings</div>
+            <div><img src="help-box.svg"> Support</div>
+            <div><img src="shield.svg"> Privacy</div>
         </div>
+
     </div>
 
 
-    <!-- MAIN AREA -->
-    <div class="main">
+    <!-- HEADER -->
+    <div class="header">
 
-        <!-- HEADER -->
-        <div class="header">
+        <div class="topbar">
+            <div class="search">
+                <img src="search-web.svg">
+                <input type="text" placeholder="Search...">
+            </div>
 
-            <div class="topbar">
-                <div class="search">
-                    <img src="search-web.svg" alt="Search">
-                    <input type="text" placeholder="Search...">
-                </div>
-                <div class="notifications">
-                        <img src="bell-badge-outline.svg" alt="bell-badge-outline">
-                </div>
-                <div class="avatar">
-                    <img src="Avatar.jpg" alt="Avatar">
-                </div>
-                <div class="user">
-                    
-                    <h2>Morgan Oakley</h2>
+            <div class="right">
+                <img class="bell" src="bell-badge-outline.svg">
+                <img class="avatar-small" src="Avatar.jpg">
+                <h3>Morgan Oakley</h3>
+            </div>
+        </div>
+
+        <div class="profile-row">
+
+            <div class="profile-info">
+                <img class="avatar-big" src="Avatar.jpg">
+                <div>
+                    <p>Hi there,</p>
+                    <h2>Morgan Oakley (@morgan)</h2>
                 </div>
             </div>
 
-            <div class="profile-row">
-                <div class="profile-info">
-                    <div class="avatar">
-                        <img src="Avatar.jpg" alt="Avatar">
-                    </div>
-                    <div>
-                        <div>Hi there,</div>
-                        <div class="username">Morgan Oakley (@morgan)</div>
-                    </div>
-                </div>
-
-                <div class="actions">
-                    <div class="btn">New</div>
-                    <div class="btn">Upload</div>
-                    <div class="btn">Share</div>
-                </div>
+            <div class="actions">
+                <div class="btn">New</div>
+                <div class="btn">Upload</div>
+                <div class="btn">Share</div>
             </div>
 
         </div>
 
+    </div>
 
-        <!-- CONTENT -->
+
+    <!-- MAIN CONTENT -->
+    <div class="main">
+
         <div class="content">
 
-            <!-- PROJECT SECTION -->
+            <!-- PROJECTS -->
             <div class="projects">
 
-                <div class="title">Your Projects</div>
+                <h3>Your Projects</h3>
 
                 <div class="cards">
 
                     <div class="card">
-                        <div class="card-title">Super Cool Project</div>
-                        <div class="card-text">Sed tempus ut lacus ut scelerisque...</div>
+                        <b>Super Cool Project</b>
+                        <p>Sed tempus ut lacus ut scelerisque...</p>
                     </div>
 
                     <div class="card">
-                        <div class="card-title">Less Cool Project</div>
-                        <div class="card-text">Nullam condimentum ipsum ut lectus...</div>
+                        <b>Less Cool Project</b>
+                        <p>Nullam condimentum ipsum ut lectus...</p>
                     </div>
 
                     <div class="card">
-                        <div class="card-title">Impossible App</div>
-                        <div class="card-text">In hac habitasse platea dictumst...</div>
+                        <b>Impossible App</b>
+                        <p>In hac habitasse platea dictumst...</p>
                     </div>
 
                     <div class="card">
-                        <div class="card-title">Easy Peasy App</div>
-                        <div class="card-text">Etiam cursus eros ac efficitur fringilla...</div>
+                        <b>Easy Peasy App</b>
+                        <p>Etiam cursus eros ac efficitur fringilla...</p>
                     </div>
 
                     <div class="card">
-                        <div class="card-title">Ad Blocker</div>
-                        <div class="card-text">Quisque eget rutrum nisl...</div>
+                        <b>Ad Blocker</b>
+                        <p>Quisque eget rutrum nisl...</p>
                     </div>
 
                     <div class="card">
-                        <div class="card-title">Money Maker</div>
-                        <div class="card-text">Praesent convallis libero quis congue...</div>
+                        <b>Money Maker</b>
+                        <p>Praesent convallis libero quis congue...</p>
                     </div>
 
                 </div>
@@ -120,33 +117,40 @@
             <!-- RIGHT PANEL -->
             <div class="side">
 
-                <div class="announcements">
-                    <div class="title">Announcements</div>
-
-                    <div class="box">
-                        <div class="box-title">Site Maintenance</div>
-                        <div>Vestibulum condimentum tellus lacus...</div>
-                    </div>
-
-                    <div class="box">
-                        <div class="box-title">Community Share Day</div>
-                        <div>Nam vel lectus tincidunt...</div>
-                    </div>
-
-                    <div class="box">
-                        <div class="box-title">Updated Privacy Policy</div>
-                        <div>Phasellus efficitur nisi eget elit...</div>
-                    </div>
+                <div class="panel">
+                    <h3>Announcements</h3>
+                    <p>Site Maintenance</p>
+                    <p>Community Share Day</p>
+                    <p>Updated Privacy Policy</p>
                 </div>
 
+                <div class="panel">
+                    <h3>Trending</h3>
 
-                <div class="trending">
-                    <div class="title">Trending</div>
+                    <div class="trend">
+                        <img src="Avatar.jpg">
+                        <div>
+                            <b>@tegan</b>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </div>
 
-                    <div class="trend">@tegan — World Peace Builder</div>
-                    <div class="trend">@morgan — Super Cool Project</div>
-                    <div class="trend">@kendall — Life Changing App</div>
-                    <div class="trend">@alex — No Traffic Maker</div>
+                    <div class="trend">
+                        <img src="Avatar.jpg">
+                        <div>
+                            <b>@morgan</b>
+                            <p>Super Cool Project</p>
+                        </div>
+                    </div>
+
+                    <div class="trend">
+                        <img src="Avatar.jpg">
+                        <div>
+                            <b>@kendall</b>
+                            <p>Life Changing App</p>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
