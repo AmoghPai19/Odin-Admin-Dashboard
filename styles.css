@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 200px 1fr;
+    height:100vh;
+}
+
+
+.search img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.sidebar{
+    background-color: #5a98a9;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    grid-row: span 2;
+}
+.sidebar img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.nav{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    font-size:20px;
+    padding-bottom:20px;
+}
+
+/* each menu item */
+.nav div{
+    display:grid;
+    grid-template-columns:30px 1fr;
+    align-items:center;
+}
+
+
+.header{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    padding:20px 40px;
+    background:#f3f4f6;
+}
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.search{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.search input{
+    width:550px;
+    height:30px;
+    border-radius:20px;
+    border:none;
+    background:#d1d5db;
+    padding:0 15px;
+}
+.profile-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.profile-info{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.avatar img{
+    width:60px;
+    border-radius:50%;
+}
+
+.notifications img{
+    width:25px;
+    height:25px;
+    margin-left: 50px;
+}
+
+.username{
+    font-weight:bold;
+    font-size:20px;
+}
+.actions{
+    display:flex;
+    gap:15px;
+}
+
+.btn{
+    background:#3b82f6;
+    color:white;
+    padding:10px 20px;
+    border-radius:20px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+
+
+
